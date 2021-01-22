@@ -1,14 +1,14 @@
 import './App.css';
 import HooksCounter from './components/useState/HooksCounter';
 import HooksCounterTwo from './components/useState/HooksCounterTwo';
-import HookCounterThree from './components/useState/HookCounterThree';
+import UseStateWithObject from './components/useState/UseStateWithObject';
 
 function App() {
   return (
     <div className="App">
       <HooksCounter />
       <HooksCounterTwo />
-      <HookCounterThree />
+      <UseStateWithObject />
     </div>
   );
 }
