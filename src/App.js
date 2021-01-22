@@ -1,10 +1,10 @@
 import './App.css';
-import UseState from './components/UseState';
+import HooksCounter from './components/useState/HooksCounter';
 
 function App() {
   return (
     <div className="App">
-      <UseState />
+      <HooksCounter />
     </div>
   );
 }

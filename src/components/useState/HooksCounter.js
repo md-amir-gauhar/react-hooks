@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const UseState = () => {
+const HooksCounter = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -10,4 +10,4 @@ const UseState = () => {
   );
 };
 
-export default UseState;
+export default HooksCounter;
