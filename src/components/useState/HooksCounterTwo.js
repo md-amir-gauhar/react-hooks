@@ -1,3 +1,5 @@
+// useState with previous state.
+
 import React, { useState } from 'react';
 
 const HooksCounterTwo = () => {
