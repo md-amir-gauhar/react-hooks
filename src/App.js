@@ -1,5 +1,6 @@
 import './App.css';
-import UseEffectThree from './components/useEffect/UseEffectThree';
+import UseEffectFour from './components/useEffect/UseEffectFour';
+// import UseEffectThree from './components/useEffect/UseEffectThree';
 // import UseEffectOne from './components/useEffect/UseEffectOne';
 // import UseEffectTwo from './components/useEffect/useEffectTwo';
 // import HooksCounter from './components/useState/HooksCounter';
@@ -16,8 +17,8 @@ function App() {
       <UseStateWithArray /> */}
       {/* <UseEffectOne /> */}
       {/* <UseEffectTwo /> */}
-
-      <UseEffectThree />
+      {/* <UseEffectThree /> */}
+      <UseEffectFour />
     </div>
   );
 }
