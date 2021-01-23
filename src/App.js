@@ -1,16 +1,18 @@
 import './App.css';
-import HooksCounter from './components/useState/HooksCounter';
-import HooksCounterTwo from './components/useState/HooksCounterTwo';
-import UseStateWithObject from './components/useState/UseStateWithObject';
-import UseStateWithArray from './components/useState/UseStateWithArray';
+import UseEffectOne from './components/useEffect/UseEffectOne';
+// import HooksCounter from './components/useState/HooksCounter';
+// import HooksCounterTwo from './components/useState/HooksCounterTwo';
+// import UseStateWithObject from './components/useState/UseStateWithObject';
+// import UseStateWithArray from './components/useState/UseStateWithArray';
 
 function App() {
   return (
     <div className="App">
-      <HooksCounter />
+      {/* <HooksCounter />
       <HooksCounterTwo />
       <UseStateWithObject />
-      <UseStateWithArray />
+      <UseStateWithArray /> */}
+      <UseEffectOne />
     </div>
   );
 }
