@@ -1,6 +1,7 @@
 import './App.css';
+import UseEffectThree from './components/useEffect/UseEffectThree';
 // import UseEffectOne from './components/useEffect/UseEffectOne';
-import UseEffectTwo from './components/useEffect/useEffectTwo';
+// import UseEffectTwo from './components/useEffect/useEffectTwo';
 // import HooksCounter from './components/useState/HooksCounter';
 // import HooksCounterTwo from './components/useState/HooksCounterTwo';
 // import UseStateWithObject from './components/useState/UseStateWithObject';
@@ -14,7 +15,9 @@ function App() {
       <UseStateWithObject />
       <UseStateWithArray /> */}
       {/* <UseEffectOne /> */}
-      <UseEffectTwo />
+      {/* <UseEffectTwo /> */}
+
+      <UseEffectThree />
     </div>
   );
 }
